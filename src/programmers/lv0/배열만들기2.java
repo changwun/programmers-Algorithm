@@ -55,11 +55,11 @@ public int[] solution(int l, int r) {
   // 3. 리스트를 배열로 변환 (Java 8 이상이라면 스트림으로 한 줄 처리 가능!)
   return list.stream().mapToInt(Integer::intValue).toArray();
 }
-//  public static void main(String[] args) {
-//    배열만들기2 sol = new 배열만들기2();
-//    int[] result = sol.solution(5, 555);
-//    System.out.println(Arrays.toString(result));
-//  }
+  public static void main(String[] args) {
+    배열만들기2 sol = new 배열만들기2();
+    int[] result = sol.solution(5, 555);
+    System.out.println(Arrays.toString(result));
+  }
 }
 
 
