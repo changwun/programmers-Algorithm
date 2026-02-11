@@ -11,7 +11,7 @@ public class 카운트업 {
       // 2. 숫자를 하나씩 채워 넣습니다.
       for (int i = 0; i < size; i++) {
         // i는 0, 1, 2... 순서대로 증가하고
-        // 실제 들어갈 값은 start_num부터 시작합니다.
+        // 실제 들어갈 값은 start_num부터 시작합니다.//수정
         answer[i] = start_num + i;
       }
 
@@ -20,7 +20,7 @@ public class 카운트업 {
 
   public static void main(String[] args) {
     카운트업 sol = new 카운트업();
-    int[] result = sol.solution(3,10);
+    int[] result = sol.solution(3,11);
     System.out.println(Arrays.toString(result));
 
   }
