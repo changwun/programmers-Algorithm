@@ -8,7 +8,7 @@ public class 간단한논리연산 {
 
   public static void main(String[] args) {
     간단한논리연산 sol = new 간단한논리연산();
-    boolean result = sol.solution(false,	true,	true,	true);
+    boolean result = sol.solution(false,	true,	true,	false);
     System.out.println(result);
   }
 }
